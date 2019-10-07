@@ -2,8 +2,8 @@
 import React from "react"
 
 const AboutMe = () => (
-  <div className="aboutMeContainer">
-    <div className="aboutMeDiv">
+  <div className="container">
+    <div className="content">
       <img alt="Dylan Barber - Full Stack Developer" className="aboutMePicture" src="./lib/img/dylanBarberPic.png" /> 
       <p className="aboutMeText">I have 4 months professional experience in Javascript, Node JS, React JS, test driven development using Chai and Mocha JS, and many more.
       Below you can download my resume which outlines my 3 years experience in the IT field ranging from the beginning at help desk, to network
