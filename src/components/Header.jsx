@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom"
 
 // Bootstrap
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,9 +9,9 @@ const Header = () => (
   <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#home">Dylan Barber</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">About Me</Nav.Link>
-      <Nav.Link href="#features">Projects</Nav.Link>
-      <Nav.Link href="#pricing">Experience</Nav.Link>
+      <Nav.Link><NavLink activeClassName="active" to="/aboutme">About Me</NavLink></Nav.Link>
+      <Nav.Link><NavLink activeClassName="active" to="/projects">Projects</NavLink></Nav.Link>
+      <Nav.Link><NavLink activeClassName="active" to="/experience">Experience</NavLink></Nav.Link>
     </Nav>
   </Navbar>
 )

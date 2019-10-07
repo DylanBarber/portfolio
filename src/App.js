@@ -1,18 +1,24 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route} from "react-router-dom";
 
 //Components
-import Header from './components/Header'
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
-    <div className="App">
-      {<Header />}
+    <Router>
+      <div className="App">
+        {<Header />}
 
-      {/* <Card style={{ width: '18rem' }}>
+        {/* <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
@@ -23,7 +29,13 @@ function App() {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card> */}
-    </div>
+      </div>
+      <Route path="/" exact component={AboutMe} />
+      <Route path="/aboutme" component={AboutMe} />
+      <Route path="/projects" component={Projects} /> 
+      <Route path="/experience" component={Experience} />
+
+    </Router>
   );
 }
 

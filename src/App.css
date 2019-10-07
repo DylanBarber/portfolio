@@ -20,3 +20,15 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* Nav Bar */
+.active{
+  color: white !important;
+}
+.nav-link a{
+  color: lightgray;
+}
+.nav-link a:hover {
+  color: white;
+}
+/* Nav Bar */
