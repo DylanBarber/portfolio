@@ -22,13 +22,45 @@
 }
 
 /* Nav Bar */
-.active{
+
+.active {
   color: white !important;
 }
-.nav-link a{
+
+.nav-link a {
   color: lightgray;
 }
+
 .nav-link a:hover {
   color: white;
 }
+
 /* Nav Bar */
+
+/* About Me */
+
+.aboutMeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeDiv {
+  width: 70vw;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 60px grey;
+}
+.aboutMePicture{
+  border-radius: 100%;
+  margin: 20px;
+  box-shadow: 0px 0px 40px grey;
+}
+.aboutMeText{
+  width: 70%; 
+  text-align: center;
+}
+/* About Me */
