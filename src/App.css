@@ -151,3 +151,14 @@
   }
   /* Projects */
 }
+
+@media(max-width: 768px) {
+    /* General Styling */
+    .content {
+      width: 100%;
+    }
+    body {
+      width: 100vw;
+    }
+    /* General Styling */
+}
