@@ -1,5 +1,8 @@
 //Depenedencies
-import React from "react"
+import React from "react";
+
+//Bootstrap 
+import Button from 'react-bootstrap/Button'; 
 
 const AboutMe = () => (
   <div className="container">
@@ -12,6 +15,7 @@ const AboutMe = () => (
       attitude at self development that helps me learn new technology concepts everyday to better my work. I currently work at Road to Hire in Detroit, MI where
       I utilize my knowledge in JS and various frameworks to create web apps and API's to support their data.
       </p>
+      <Button className='downloadBtn' href='./files/DylanBarberResume.docx' variant="dark" download>Download Resume</Button>
     </div>
   </div>
 )
