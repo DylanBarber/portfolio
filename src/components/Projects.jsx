@@ -11,10 +11,10 @@ const Projects = () => (
       <div className='projectsCards'>
         <div className='projectsCardsRow'>
           <ProjectCard
-            projectLink="https://dylanbarber.github.io/DiceBlackjack/"
-            projectPic="./lib/img/blackjack.png"
-            projectTitle="Dice Blackjack"
-            projectDesc="Project Made with HTML5 CSS3 and vanilla JS (Hosted on GH Pages)"
+            projectLink="https://github.com/DylanBarber/dbElectronics"
+            projectPic="./lib/img/dbelectronics.png"
+            projectTitle="DB Electronics"
+            projectDesc="Full scale E-commerce site. Utilizes React JS, Node JS, Express, mySQL, Chai JS, and Mocha JS (Currently Not Deployed)"
           />
           <ProjectCard
             projectLink="https://dylans-weather-app.herokuapp.com/"
@@ -31,10 +31,10 @@ const Projects = () => (
             projectDesc={"Will turn any normal text into \"tHiS tYpE oF tExT\". Strictly for meme usage. Uses React JS and canvas to draw image for download (Hosted on Netlify)"}
           />
           <ProjectCard
-            projectLink="https://github.com/DylanBarber/dbElectronics"
-            projectPic="./lib/img/dbelectronics.png"
-            projectTitle="DB Electronics"
-            projectDesc="Full scale E-commerce site. Utilizes React JS, Node JS, Express, mySQL, Chai JS, and Mocha JS (Currently Not Deployed)"
+            projectLink="https://dylanbarber.github.io/DiceBlackjack/"
+            projectPic="./lib/img/blackjack.png"
+            projectTitle="Dice Blackjack"
+            projectDesc="Project Made with HTML5 CSS3 and vanilla JS (Hosted on GH Pages)"
           />
         </div>
       </div>
