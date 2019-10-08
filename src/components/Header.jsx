@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 
 const Header = () => (
   <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Dylan Barber</Navbar.Brand>
+    <NavLink to="/"><Navbar.Brand href="#home">Dylan Barber</Navbar.Brand></NavLink>
     <Nav className="mr-auto">
       <Nav.Link><NavLink activeClassName="active" to="/aboutme">About Me</NavLink></Nav.Link>
       <Nav.Link><NavLink activeClassName="active" to="/projects">Projects</NavLink></Nav.Link>
