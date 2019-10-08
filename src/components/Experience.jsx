@@ -1,8 +1,8 @@
 //Components
-import ExperienceCard from './ExperienceCard';
+import ExperienceCard from "./ExperienceCard";
 
 //Depenedencies
-import React from 'react'
+import React from "react";
 
 const Experience = () => (
   <div className='container'>
@@ -43,6 +43,6 @@ const Experience = () => (
       </div>
     </div>
   </div>
-)
+);
 
 export default Experience;

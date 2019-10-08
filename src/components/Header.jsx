@@ -1,9 +1,9 @@
-import React from 'react';
-import { NavLink } from "react-router-dom"
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 // Bootstrap
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 const Header = () => (
   <Navbar bg="dark" variant="dark">
@@ -14,6 +14,6 @@ const Header = () => (
       <Nav.Link><NavLink activeClassName="active" to="/experience">Experience</NavLink></Nav.Link>
     </Nav>
   </Navbar>
-)
+);
 
 export default Header;

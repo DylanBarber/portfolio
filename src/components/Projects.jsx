@@ -1,8 +1,8 @@
 //Depenedencies
-import React from 'react'
+import React from "react";
 
 //Components
-import ProjectCard from './ProjectCard'
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => (
   <div className='container'>
@@ -28,7 +28,7 @@ const Projects = () => (
             projectLink="https://spongebob-mock.netlify.com/"
             projectPic="./lib/img/spongebob.png"
             projectTitle="SpOnGeBoB mOcK gEnErAtOr"
-            projectDesc={`Will turn any normal text into "tHiS tYpE oF tExT". Strictly for meme usage. Uses React JS and canvas to draw image for download (Hosted on Netlify)`}
+            projectDesc={"Will turn any normal text into \"tHiS tYpE oF tExT\". Strictly for meme usage. Uses React JS and canvas to draw image for download (Hosted on Netlify)"}
           />
           <ProjectCard
             projectLink="https://github.com/DylanBarber/dbElectronics"
@@ -42,6 +42,6 @@ const Projects = () => (
   </div>
 
 
-)
+);
 
 export default Projects;

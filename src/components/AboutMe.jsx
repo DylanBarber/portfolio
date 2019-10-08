@@ -2,7 +2,7 @@
 import React from "react";
 
 //Bootstrap 
-import Button from 'react-bootstrap/Button'; 
+import Button from "react-bootstrap/Button"; 
 
 const AboutMe = () => (
   <div className="container">
@@ -18,6 +18,6 @@ const AboutMe = () => (
       <Button className='downloadBtn' href='./files/DylanBarberResume.docx' variant="dark" download>Download Resume</Button>
     </div>
   </div>
-)
+);
 
 export default AboutMe; 
