@@ -124,6 +124,28 @@
 
 /* Projects */
 
+/* Experience */
+
+.experienceContent {
+  justify-content: flex-start;
+}
+
+.experienceHeading {
+  margin: 30px;
+}
+
+.experienceCardsRow {
+  display: flex;
+}
+
+.experienceCardsRow .card {
+  margin: 20px;
+  box-shadow: 0px 0px 20px grey;
+  border-radius: 30px;
+}
+
+/* Experience */
+
 /* Media Queries */
 
 @media(max-width: 438px) {
@@ -153,15 +175,20 @@
     flex-direction: column;
   }
   /* Projects */
+  /* Experience */
+  .experienceCardsRow {
+    flex-direction: column;
+  }
+  /* Experience */
 }
 
 @media(max-width: 768px) {
-    /* General Styling */
-    .content {
-      width: 100%;
-    }
-    body {
-      width: 100vw;
-    }
-    /* General Styling */
+  /* General Styling */
+  .content {
+    width: 100%;
+  }
+  body {
+    width: 100vw;
+  }
+  /* General Styling */
 }
