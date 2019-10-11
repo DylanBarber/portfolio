@@ -72,8 +72,9 @@
   width: 70%;
   text-align: center;
 }
-.downloadBtn{
-  margin: 10px; 
+
+.downloadBtn {
+  margin: 10px;
 }
 
 /* About Me */
@@ -150,19 +151,27 @@
 /* Experience */
 
 /* Footer */
-.footer{
-  height: 10vh; 
+
+.footer {
+  height: 14vh;
   width: 100%;
   background-color: rgb(52, 58, 64);
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .footerImage {
   height: 50px;
   margin: 15px;
 }
+
+.lastUpdated {
+  color: whitesmoke;
+  opacity: .5;
+}
+
 /* Footer */
 
 /* Media Queries */
