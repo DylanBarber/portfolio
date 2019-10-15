@@ -37,6 +37,14 @@ const Projects = () => (
             projectDesc="Project Made with HTML5 CSS3 and vanilla JS (Hosted on GH Pages)"
           />
         </div>
+        <div className='projectsCardsRow'>
+          <ProjectCard
+            projectLink="https://randomcolorgenerator.netlify.com/"
+            projectPic="./lib/img/color.png"
+            projectTitle="Random Color Generator"
+            projectDesc="Made with vanilla JavaScript, CSS3, and HTML5. This app will generate random colors for graphic desingers"
+          />
+        </div>
       </div>
     </div>
   </div>
