@@ -109,6 +109,7 @@
 
 .projectsCards {
   display: flex;
+  flex-direction: column;
 }
 
 .projectsCards a {
@@ -123,7 +124,6 @@
 .projectsCardsRow {
   width: 100%;
   display: flex;
-  flex-direction: column;
 }
 
 /* Projects */
@@ -153,7 +153,7 @@
 /* Footer */
 
 .footer {
-  height: 14vh;
+  min-height: 14vh;
   width: 100%;
   background-color: rgb(52, 58, 64);
   display: flex;
@@ -199,7 +199,7 @@
   }
   /* About Me */
   /* Projects */
-  .projectsCards {
+  .projectsCardsRow {
     flex-direction: column;
   }
   /* Projects */

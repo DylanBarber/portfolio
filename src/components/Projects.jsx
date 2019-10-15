@@ -40,7 +40,7 @@ const Projects = () => (
         <div className='projectsCardsRow'>
           <ProjectCard
             projectLink="https://randomcolorgenerator.netlify.com/"
-            projectPic="./lib/img/color.png"
+            projectPic="./lib/img/color.jpg"
             projectTitle="Random Color Generator"
             projectDesc="Made with vanilla JavaScript, CSS3, and HTML5. This app will generate random colors for graphic desingers"
           />
