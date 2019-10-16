@@ -6,7 +6,7 @@ const Footer = () => (
       <a href='https://github.com/dylanbarber'><img className='footerImage' alt='Github logo link' src='./lib/img/github.jpg' /></a>
       <a href='https://www.linkedin.com/in/dylan-barber-b360b1148/'><img className='footerImage' alt='Github logo link' src='./lib/img/linkedin.png' /></a>
     </div>
-    <p className='lastUpdated'>Last updated 10/15/2019</p>
+    <p className='lastUpdated'>Last updated 10/16/2019</p>
 
   </div>
 );
